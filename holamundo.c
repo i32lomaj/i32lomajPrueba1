@@ -2,6 +2,7 @@
 
 int main()
 {
-printf ("Hola mundo\n");
+  char c[100]="Hola mundo";
+  printf ("%s\n",strcat(c,", soy i32lomaj"));
 return 0;
 }
